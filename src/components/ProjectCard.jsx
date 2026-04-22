@@ -40,8 +40,17 @@ const ProjectCard = ({ title, description, image, tech }) => {
                         </span>
                     ))}
                 </div>
+                <div className='flex gap-2 '>
+                    <a href="#" className='flex-1 text-center px-6 py-2 bg-purple-500 rounded-lg
+                    font-medium hover:bg-purple-700 transition duration-300 '>
+                        View Demo
+                    </a>
+                    <a href="#" className='flex-1 text-center px-4 py-2 border border-purple font-medium 
+                    rounded-lg hover:bg-purple-500/20 transition duration-300 '>
+                        Code
+                    </a>
+                </div>
             </div>
-
         </div>
     );
 };
