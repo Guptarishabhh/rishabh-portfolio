@@ -16,6 +16,7 @@ const Hero = () => {
         >
             <div className='container mx-auto px-6 flex flex-col md:flex-row 
                 items-center justify-between'>
+
                 {/*----left-side-content----*/}
 
                 <div className='md:w-1/2 mb-10 md:mb-0' >
