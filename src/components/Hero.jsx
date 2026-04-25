@@ -30,9 +30,9 @@ const Hero = () => {
                         and  <br />innovative designs.
                     </p>
                     <div className='flex space-x-4'>
-                        <a href="projects" className='px-6 py-3 bg-[#8b5cf6] rounded-lg font-medium
+                        <a href="#projects" className='px-6 py-3 bg-[#8b5cf6] rounded-lg font-medium
                      hover:bg-purple-700 transition duration-300'>View work</a>
-                        <a href="contact" className='px-6 py-3 border border-purple-500 rounded-lg font-medium
+                        <a href="#contact" className='px-6 py-3 border border-purple-500 rounded-lg font-medium
                     hover:bg-purple-500/20 transition decoration-purple-300'>Contact-Me</a>
                     </div>
                 </div>
